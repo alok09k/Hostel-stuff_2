@@ -10,7 +10,7 @@ function AppContextProvider({ children }) {
   const [userDetails, setUserDetails] = useState(null);
   const [phone, setPhone] = useState("");
 
-  const apiUrl = "http://localhost:3000";
+  const apiUrl = "https://hostel-stuff-backend.onrender.com";
 
   const buyNow = async (productData, onSuccess, onError) => {
     try {
